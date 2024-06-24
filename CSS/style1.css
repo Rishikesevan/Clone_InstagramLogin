@@ -1,0 +1,124 @@
+body{
+    /* background-color: black; */
+    margin: 0;
+    padding: 0;
+}
+.total{
+    /* margin: center center; */
+    /* background-position: center center; */
+    /* margin: 30px 50px 0px 50px ; */
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.total .inside{
+    display: flex;
+}
+.inside .image{
+    /* height: 400px; */
+    margin: 0px;
+    padding: 0px;
+    margin-right: 0px;
+
+}
+.login .form{
+    border: 1px solid rgb(227, 227, 227);
+    padding: 20px 30px 10px 30px ;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    /* justify-content: center; */
+}
+.form .title{
+    display: grid;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.form .line{
+    display: flex;
+    justify-content: center;
+}
+
+.form .face{
+    display: flex;
+    justify-content: center;
+}
+.form p{
+    display: flex;
+    justify-content: center;
+}
+.inside .sign{
+    display: flex;
+    justify-content: center;
+}
+.inside .sign a{
+    margin-top: 15px;
+}
+.part3 .con3 {
+    display: grid;
+    justify-content: center;
+}
+.part3 .logo{
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    width: 125px;
+    height: 50px;
+    padding-right: 5px;
+}
+.form .inp{
+    display:grid;
+    justify-content: space-around;
+    margin-bottom: 0px;
+}
+.form .inp input{
+    width: 250px;
+    height: 35px;
+    padding-left: 20px;
+    border-radius: 5px;
+    border:1px solid rgb(227, 227, 227) ;
+    margin-bottom: 8px;
+    background-color: rgb(245, 245, 245);
+}
+.form #but{
+    display:grid;
+    justify-content: center;
+    margin-top: 5px;
+}
+.form #but button{
+    background-color: rgb(17, 187, 255);
+    padding: 8px 100px;
+    border-radius: 5px;
+    border:rgb(17, 187, 255) ;
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    /* width: 100%; */
+}
+.form .face{
+    margin-bottom: 30px;
+}
+.form .face i{
+    /* background-color: blue; */
+    padding-right: 5px;
+}
+.form .face a{
+    text-decoration: none;
+    color: rgb(25, 25, 62);
+}
+.form .line{
+    margin-bottom: 35px;
+}
+.login .sign{
+    border: 1px solid rgb(227, 227, 227);
+}
+.login .sign a{
+    text-decoration: none;
+}
+@media screen and (max-width:600px){
+    .inside .image{
+        display: none;
+        visibility: hidden;
+    }
+}
